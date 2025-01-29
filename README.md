@@ -20,11 +20,17 @@ Model loaded from ./ner_model
 
 Predicting entities in text:
 
-Input: John Smith from Apple Inc sent a letter to 123 Main Street, New York.Entities found:- JohnSmith: name- AppleInc: company- 123MainStreet,NewYork: street_address
+Input: John Smith from Apple Inc sent a letter to 123 Main Street, New York.
 
-Input: Microsoft Corporation's CEO Satya Nadella visited the office at 456 Tech Boulevard.Entities found:- MicrosoftCorporation: company- SatyaNadella: name- 4456TechBoulevard: street_address
+Entities found:- JohnSmith: name- AppleInc: company- 123MainStreet,NewYork: street_address
 
-Input: Sarah Johnson works at Deutsche Bank in Frankfurt.Entities found:- SarahJohnson: name- DeutscheBank: company
+Input: Microsoft Corporation's CEO Satya Nadella visited the office at 456 Tech Boulevard.
+
+Entities found:- MicrosoftCorporation: company- SatyaNadella: name- 4456TechBoulevard: street_address
+
+Input: Sarah Johnson works at Deutsche Bank in Frankfurt.
+
+Entities found:- SarahJohnson: name- DeutscheBank: company
 
 ===
 
