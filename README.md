@@ -1,6 +1,7 @@
 Install process:
 
 pip install torch transformers datasets seqeval numpy accelerate sacremoses tqdm
+
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 ===
