@@ -18,17 +18,21 @@ C:\Users\elnat\miniconda3\envs\pythonProject\python.exe C:\Users\elnat\py\NER\py
 
 Model loaded from ./ner_model
 
+
 Predicting entities in text:
 
-Input: John Smith from Apple Inc sent a letter to 123 Main Street, New York.
+
+A. Input: John Smith from Apple Inc sent a letter to 123 Main Street, New York.
 
 Entities found:- JohnSmith: name- AppleInc: company- 123MainStreet,NewYork: street_address
 
-Input: Microsoft Corporation's CEO Satya Nadella visited the office at 456 Tech Boulevard.
+
+B. Input: Microsoft Corporation's CEO Satya Nadella visited the office at 456 Tech Boulevard.
 
 Entities found:- MicrosoftCorporation: company- SatyaNadella: name- 4456TechBoulevard: street_address
 
-Input: Sarah Johnson works at Deutsche Bank in Frankfurt.
+
+C. Input: Sarah Johnson works at Deutsche Bank in Frankfurt.
 
 Entities found:- SarahJohnson: name- DeutscheBank: company
 
